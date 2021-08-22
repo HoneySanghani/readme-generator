@@ -3,13 +3,12 @@
 // TODO: Create a function to generate markdown for README
 const generateMarkdown=(data)=>{
   return `
-  # ${data.title}
+  # ${data.title} ![no](https://img.shields.io/node/v/no)
   ## Description
   ${data.description}
   ## Table of Content
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Badge](#Badge)
   * [Contribution](#contribution)
   * [License](#license)
   * [How to run test](#test)
@@ -18,8 +17,6 @@ const generateMarkdown=(data)=>{
   ${data.dependencies}
   ## Usage
   ${data.usage}
-  ## Badge
-  ![no](https://img.shields.io/node/v/no)
   ## Contribution
   ${data.contribution}
   ## License
@@ -28,7 +25,7 @@ const generateMarkdown=(data)=>{
   To run the code use ${data.test} command
   ## For further Questions
   E-mail: ${data.email}
-  GitHub: https://github.com/[${data.username}]
+  GitHub: https://github.com/${data.username}
 
 `;
 }
