@@ -28,7 +28,7 @@ const generateMarkdown=(data)=>{
   To run the code use ${data.test} command
   ## For further Questions
   E-mail: ${data.email}
-  GitHub: ${data.username}
+  GitHub: https://github.com/${data.username}
 
 `;
 }
