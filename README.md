@@ -1,7 +1,7 @@
 
   # Readme Generator
   ## Description
-  This is a program to generate quality readme file in commandline.
+  This program helps to create quality readme file using commandline
   ## Table of Content
   * [Installation](#installation)
   * [Usage](#usage)
@@ -13,7 +13,7 @@
   ## Installation
   npm i
   ## Usage
-  To create Readme file
+  To generate readme
   ## Badge
   ![no](https://img.shields.io/node/v/no)
   ## Contribution
@@ -24,5 +24,5 @@
   To run the code use node app command
   ## For further Questions
   E-mail: honeysanghani98@gmail.com
-  GitHub: HoneySanghani
+  GitHub: https://github.com/[HoneySanghani]
 
