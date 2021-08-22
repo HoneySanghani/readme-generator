@@ -3,7 +3,7 @@
 // TODO: Create a function to generate markdown for README
 const generateMarkdown=(data)=>{
   return `
-  # ${data.title} ![no](https://img.shields.io/node/v/no)
+  # ${data.title} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   ${data.description}
   ## Table of Content
