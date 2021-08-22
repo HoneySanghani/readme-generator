@@ -16,14 +16,19 @@ const generateMarkdown=(data)=>{
   # ${data.title}
   ## Description
   ${data.description}
-  ## License
-  ${data.lisence}
-  ## Dependencies
+  ## Table of Content
+  * [Installation](#installation)
+  * [How to run test](#test)
+  * [License](#license)
+  * [For Further Questions](#questions)
+  ## Installation
   ${data.dependencies}
   ## How to run test
-  ${data.test}
-  ## For further Questions send me an E-mail
-  ${data.email}
+  To run the code use ${data.test} command
+  ## License
+  ${data.lisence}
+  ## For further Questions
+  E-mail: ${data.email}
 
 `;
 }
