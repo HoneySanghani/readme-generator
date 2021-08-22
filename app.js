@@ -27,6 +27,16 @@ const questions = ()=>{
             message:'Please write a short description of your project.'
         },
         {
+            type:'input',
+            name:'usage',
+            message:'What is this project used for?'
+        },
+        {
+            type:'input',
+            name:'contribution',
+            message:'Who are the contributors?'
+        },
+        {
             type:'list',
             name:'lisence',
             message:'What kind of license should your project have?',
