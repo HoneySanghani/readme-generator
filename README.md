@@ -1,7 +1,7 @@
 
-  # Readme Generator ![no](https://img.shields.io/node/v/no)
+  # Readme Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  This is a program which will generate quality readme file using commandline
+  This project will help tp generate quality readme file using commandline.
   ## Table of Content
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,13 +12,13 @@
   ## Installation
   npm i
   ## Usage
-  To generate readme file for GitHub
+  To generate quality readme
   ## Contribution
   Honey Sanghani
   ## License
   MIT
   ## How to run test
-  To run the code use node app command
+  Check Video Url https://drive.google.com/file/d/1IZSpEksEw206Cfq1X6Lw4oKhsNtMdkjq/view
   ## For further Questions
   E-mail: honeysanghani98@gmail.com
   GitHub: https://github.com/HoneySanghani
