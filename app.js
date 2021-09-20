@@ -9,32 +9,80 @@ const questions = ()=>{
         {
             type:'input',
             name:'username',
-            message:'What is your GitHub user name?',
+            message:'What is your GitHub user name?(required)',
+            validate:username=>{
+                if(username){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'input',
             name:'email',
-            message:'What is your email address?'
+            message:'What is your email address?(required)',
+            validate:email=>{
+                if(email){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'input',
             name:'title',
-            message:'What is your project name?'
+            message:'What is your project name?(required)',
+            validate:projectname=>{
+                if(projectname){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'input',
             name:'description',
-            message:'Please write a short description of your project.'
+            message:'Please write a short description of your project.(required)',
+            validate:description=>{
+                if(description){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'input',
             name:'usage',
-            message:'What is this project used for?'
+            message:'What is this project used for?(required)',
+            validate:usage=>{
+                if(usage){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'input',
             name:'contribution',
-            message:'Who are the contributors?'
+            message:'Who are the contributors?(required)',
+            validate:contribution=>{
+                if(contribution){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'list',
@@ -45,12 +93,28 @@ const questions = ()=>{
         {
             type:'input',
             name:'dependencies',
-            message:'What command should be run to install dependencies?'
+            message:'What command should be run to install dependencies?(required)',
+            validate:dependencies=>{
+                if(dependencies){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         },
         {
             type:'input',
             name:'test',
-            message:'What command should be run to run test?',
+            message:'What command should be run to run test?(required)',
+            validate:testing=>{
+                if(testing){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
         }
     ])
 };

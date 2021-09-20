@@ -1,9 +1,16 @@
-
+const license=(data)=>{
+  if(data.lisence=='MIT'){
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+  }
+  else{
+    return 'kasu b nai';
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown=(data)=>{
   return `
-  # ${data.title} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # ${data.title} ${license(data)}
   ## Description
   ${data.description}
   ## Table of Content
