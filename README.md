@@ -1,7 +1,7 @@
 
-  # dfgdht [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Readme Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  cvbdsgfhg
+  This code helps to make a quality readme file along with license badge.
   ## Table of Content
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,16 +10,16 @@
   * [How to run test](#test)
   * [For Further Questions](#questions)
   ## Installation
-  asgdg
+  npm init
   ## Usage
-  dhdsng
+  Used to create quality readme file for GitHub.
   ## Contribution
-  sdgdxvdtgh
+  Honey Sanghani
   ## License
   MIT
   ## How to run test
-  To run the code use dfghdgh command
+  To run the code use node app command
   ## For further Questions
-  E-mail: dffgch
-  GitHub: https://github.com/xvbsdgh
+  E-mail: honeysanghani98@gmail.com
+  GitHub: https://github.com/HoneySanghani
 
